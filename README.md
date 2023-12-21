@@ -1,2 +1,4 @@
 # 4D
-Experimenting with visualizing 4D geometries.
+Experimenting with visualizing 4D geometries. Not much to show yet, but the objective is to visualize the 3D projection of a 4D scene by stacking 2D cross-sections of that projection. Moving around the space would be controlled by forward and backward keys (controlling position along one local axis) and mouse movements (2 degrees of freedom) with the addition of the scroll wheel (1 degree of freedom) for rotating your local axis in the 4-dimensional space.
+
+Currently in the process of figuring out how to project and render vertices with absolute 3D positions on a 2D screen manually using p5.js, after which I'll project 4D vertices on a 3D scene using the same techniques, then take 2D cross-sections of that scene and stack them, enabling me to see a coarse-graining of the whole 3D projection.

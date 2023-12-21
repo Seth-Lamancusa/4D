@@ -22,7 +22,7 @@ let sketch = document.getElementById('sketch');
 // M4 = [[1, 0, 0, cam_x],
 // [0, 1, 0, cam_y],
 // [0, 0, 1, cam_z],
-// [0, 0, 0, 0]];
+// [0, 0, 0, 0]]; 
 
 function setup() {
 
